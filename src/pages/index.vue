@@ -1,15 +1,7 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="flex justify-center items-center h-[80vh]">
-    <div class="text-center">
-      <img
-        class="block"
-        src="https://vuejsforge.com/images/logo.svg"
-        alt="Vue.js Forge"
-      />
-      <AppButton class="block">
-        <a href="https://vi.to/hubs/vuejs-forge/" target="_blank">Get Started</a>
-      </AppButton>
-    </div>
+  <div class="bg-gray-100 h-screen w-screen">
+    <h1 class="text-center text-4xl font-bold text-orange-500 py-10"> Vue.js Forge - Orange Lemur </h1>
+    <BoardsList></BoardsList>
   </div>
 </template>
