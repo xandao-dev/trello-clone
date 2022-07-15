@@ -36,6 +36,7 @@
     "@progress/kendo-vue-notification": "^3.4.0",
     "@progress/kendo-vue-popup": "^3.4.0",
     "@rushstack/eslint-patch": "^1.1.0",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
     "@types/jsdom": "^16.2.14",
     "@types/lodash-es": "^4.17.6",
     "@types/node": "^16.11.41",
