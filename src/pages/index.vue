@@ -1,7 +1,7 @@
 <template>
-  <div class="grid-template">
+  <div class="grid-template h-full">
     <side-bar class="template-side-bar" />
-    <div class="template-app max-w-screen-xl mx-auto w-full">
+    <div class="template-app max-w-screen-xl mx-auto w-full overflow-y-auto">
       <h1 class="text-center text-4xl font-bold text-orange-500 py-10">
         Vue.js Forge - Orange Lemur
       </h1>
