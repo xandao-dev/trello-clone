@@ -11,6 +11,7 @@ declare module '@vue/runtime-core' {
     BoardsGrid: typeof import('./src/components/BoardsGrid.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SideBar: typeof import('./src/components/SideBar.vue')['default']
   }
 }
 

@@ -3,7 +3,19 @@
 @tailwind utilities;
 
 @layer base {
+	* {
+		box-sizing: border-box;
+	}
+
 	html {
-		@apply bg-gray-100 w-full h-full;
+		@apply bg-gray-100 w-full h-full dark:bg-gray-900;
+	}
+	
+	body {
+		@apply h-full overflow-hidden;
+	}
+
+	body > #app {
+		@apply h-full;
 	}
 }
