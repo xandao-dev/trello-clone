@@ -1,12 +1,10 @@
 <template>
   <div class="grid-template h-full">
     <side-bar class="template-side-bar" />
-    <div class="template-app max-w-screen-xl mx-auto w-full overflow-y-auto">
-      <h1 class="text-center text-4xl font-bold text-orange-500 py-10">
-        Vue.js Forge - Orange Lemur
-      </h1>
+    <nav-bar class="template-nav-bar"></nav-bar>
+    <main class="template-app max-w-screen-xl mx-auto w-full overflow-y-auto">
       <boards-grid></boards-grid>
-    </div>
+    </main>
   </div>
 </template>
 
@@ -14,12 +12,18 @@
 .grid-template {
   display: grid;
   grid-template-columns: min-content auto;
-  grid-template-rows: 1fr;
-  grid-template-areas: "side-bar app";
+  grid-template-rows: min-content auto;
+  grid-template-areas:
+    "nav-bar nav-bar"
+    "side-bar app";
 }
 
 .grid-template > .template-side-bar {
   grid-area: side-bar;
+}
+
+.grid-template > .template-nav-bar {
+  grid-area: nav-bar;
 }
 
 .grid-template > .template-app {
