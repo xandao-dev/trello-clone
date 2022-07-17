@@ -72,7 +72,12 @@
     </div>
   </div>
   <div v-else>
-    <button @click="setSidebarOpen(!isSideBarOpen)" class="rounded-full m-5">
+    <button
+      @click="setSidebarOpen(!isSideBarOpen)"
+      type="button"
+      class="m-5 text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400"
+      aria-label="toggle menu"
+    >
       <span class="material-symbols-rounded">menu</span>
     </button>
   </div>
