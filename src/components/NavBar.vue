@@ -2,7 +2,7 @@
   <nav class="bg-white shadow dark:bg-gray-800">
     <div class="flex justify-between items-center px-6 py-3 mx-auto">
       <h1
-        class="text-2xl font-bold text-gray-800 transition-colors duration-200 transform dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300"
+        class="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300"
         href="#"
       >
         Treco
@@ -24,11 +24,12 @@
             </ul>
           </div>
         </div>
-        <a
-          class="px-3 py-2 mx-1 text-sm font-medium leading-5 text-center text-white transition-colors duration-200 transform bg-gray-500 rounded-md hover:bg-orange-600 md:mx-2 md:w-auto"
-          href="#"
-          >Logout</a
-        >
+		<dark-mode-toggle></dark-mode-toggle>
+        <button
+          class="px-3 py-2 mx-1 text-sm font-medium leading-5 text-center text-white bg-gray-500 rounded-md hover:bg-orange-500 md:mx-2 md:w-auto dark:bg-orange-500 dark:hover:bg-gray-500"
+          href="#">
+		  Logout
+		</button>
       </div>
     </div>
   </nav>

@@ -9,6 +9,7 @@ declare module '@vue/runtime-core' {
     Board: typeof import('./src/components/Board.vue')['default']
     BoardCard: typeof import('./src/components/BoardCard.vue')['default']
     BoardsGrid: typeof import('./src/components/BoardsGrid.vue')['default']
+    DarkModeToggle: typeof import('./src/components/DarkModeToggle.vue')['default']
     NavBar: typeof import('./src/components/NavBar.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']

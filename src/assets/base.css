@@ -8,11 +8,16 @@
 	}
 
 	html {
-		@apply bg-gray-100 w-full h-full dark:bg-gray-900;
+		@apply  w-full h-full ;
 	}
 	
+	html.dark {
+		color-scheme: dark;
+	}
+
 	body {
-		@apply h-full overflow-hidden;
+		@apply h-full overflow-hidden bg-gray-100 dark:bg-gray-900 transition-colors duration-200;
+		
 	}
 
 	body > #app {
