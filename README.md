@@ -1,59 +1,126 @@
-# vue-forge-boilerplate
+<br />
+<p align="center">
+  <h3 align="center">Trello Clone</h3>
 
-This template should help get you started developing with Vue 3 in Vite.
+  <p align="center">
+    A Trello clone built with Vue 3, TypeScript, and Tailwind CSS. A challenge from <a href="https://vuejsforge.com/">Vue Forge</a>.
+    <br />
+	<br />
+    <a href="https://github.com/xandao6/trello-clone"><strong>Explore the docs »</strong></a>
+    <br />
+    <a href="https://github.com/xandao6/trello-clone/issue">Report Bug</a>
+    ·
+    <a href="https://github.com/xandao6/trello-clone/issues">Request Feature</a>
+  </p>
+</p>
 
-## Recommended IDE Setup
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#recommended-ide-setup">Recommended IDE Setup</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+### Features
+
+* CRUD boards
+* CRUD cards
+
+### Built With
+
+* [Vue.js 3](https://vuejs.org/) - A progressive framework for web development
+* [TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript
+* [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Type Support for `.vue` Imports in TS
+### Installation
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/xandao6/trello-clone.git
+   ```
+2. Install dependencies
+   ```sh
+	cd trello-clone
+	npm install # or yarn install
+	```
+<!-- USAGE EXAMPLES -->
+## Usage
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+* Starts the development server
+	```sh
+  npm run dev # or yarn dev
+  ```
+* Build for production
+  ```sh
+  npm run build # or yarn build
+  ```
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+<!-- ROADMAP -->
+## Roadmap
 
-## Customize configuration
+See the [open issues](https://github.com/xandao6/trello-clone/issues) for a list of proposed features (and known issues).
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+<!-- CONTRIBUTING -->
+## Contributing
 
-## Project Setup
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-```sh
-npm install
-```
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Compile and Hot-Reload for Development
+<!-- LICENSE -->
+## License
 
-```sh
-npm run dev
-```
+Distributed under the MIT License. See [LICENSE](./LICENSE.md) for more information.
 
-### Type-Check, Compile and Minify for Production
+Free software =)
 
-```sh
-npm run build
-```
+<!-- CONTACT -->
+## Contact
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+Alexandre Calil - [@xandao6](https://www.linkedin.com/in/xandao6/) - alexandrecalilmf@gmail.com
 
-```sh
-npm run test:unit
-```
+Project Link: [https://github.com/xandao6/trello-clone](https://github.com/xandao6/trello-clone)
+## Acknowledgements
 
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run build
-npm run test:e2e # or `npm run test:e2e:ci` for headless testing
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+* [eslint](https://github.com/eslint/eslint) - code linter
+* [prettier](https://github.com/prettier/prettier) - code formatter
