@@ -6,11 +6,11 @@
     A Trello clone built with Vue 3, TypeScript, and Tailwind CSS. A challenge from <a href="https://vuejsforge.com/">Vue Forge</a>.
     <br />
 	<br />
-    <a href="https://github.com/xandao6/trello-clone"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/xandao-dev/trello-clone"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://github.com/xandao6/trello-clone/issue">Report Bug</a>
+    <a href="https://github.com/xandao-dev/trello-clone/issue">Report Bug</a>
     ·
-    <a href="https://github.com/xandao6/trello-clone/issues">Request Feature</a>
+    <a href="https://github.com/xandao-dev/trello-clone/issues">Request Feature</a>
   </p>
 </p>
 
@@ -72,7 +72,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/xandao6/trello-clone.git
+   git clone https://github.com/xandao-dev/trello-clone.git
    ```
 2. Install dependencies
    ```sh
@@ -94,7 +94,7 @@ To get a local copy up and running follow these simple steps.
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/xandao6/trello-clone/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/xandao-dev/trello-clone/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -117,9 +117,10 @@ Free software =)
 <!-- CONTACT -->
 ## Contact
 
-Alexandre Calil - [@xandao6](https://www.linkedin.com/in/xandao6/) - alexandrecalilmf@gmail.com
+Alexandre Calil - [Linkedin](https://www.linkedin.com/in/xandao-dev/) - [alexandre@xandao.dev](mailto:alexandre@xandao.dev)
 
-Project Link: [https://github.com/xandao6/trello-clone](https://github.com/xandao6/trello-clone)
+Project Link: [https://github.com/xandao-dev/trello-clone](https://github.com/xandao-dev/trello-clone)
+
 ## Acknowledgements
 
 * [eslint](https://github.com/eslint/eslint) - code linter
